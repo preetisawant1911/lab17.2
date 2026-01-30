@@ -1,4 +1,4 @@
-# TaskMaster – MERN Deployment (Lab 2)
+Lab17.2
 
 This project is a simple MERN (MongoDB, Express, React, Node.js) application deployed as part of Lab 2: Full‑Stack Deployment.  
 The goal of this lab is to deploy both the backend and frontend to Render and connect them to a live MongoDB Atlas database.
