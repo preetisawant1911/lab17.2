@@ -1,4 +1,3 @@
-
 # TaskMaster – MERN Deployment (Lab 2)
 
 This project is a simple MERN (MongoDB, Express, React, Node.js) application deployed as part of Lab 2: Full‑Stack Deployment.  
@@ -8,10 +7,10 @@ The goal of this lab is to deploy both the backend and frontend to Render and co
 
 ## 🚀 Live Deployment Links
 
-### 🔹 Backend (Render Web Service)
+### 🔹 Backend (Render Web Service)  
 https://your-backend-url.onrender.com
 
-### 🔹 Frontend (Render Static Site)
+### 🔹 Frontend (Render Static Site)  
 https://your-frontend-url.onrender.com
 
 ---
@@ -33,45 +32,46 @@ This lab focuses on deployment rather than feature expansion.
 
 ---
 
-## ⚙️ Backend Setup (Local)
+## 💻 Frontend Setup (Local)
 
-1. Navigate to the server folder:cd client
-
-Code
+1. Navigate to the client folder:
+   ```
+   cd client
+   ```
 2. Install dependencies:
-npm install
-
-Code
+   ```
+   npm install
+   ```
 3. Create a `.env` file:
-REACT_APP_API_URL=http://localhost:3001
-
-Code
+   ```
+   REACT_APP_API_URL=http://localhost:3001
+   ```
 4. Start the frontend:
-npm start
-
-Code
+   ```
+   npm start
+   ```
 
 ---
 
 ## ⚙️ Backend Setup (Local)
 
 1. Navigate to the server folder:
-cd server
-
-Code
+   ```
+   cd server
+   ```
 2. Install dependencies:
-npm install
-
-Code
+   ```
+   npm install
+   ```
 3. Create a `.env` file:
-MONGODB_URI=your_mongodb_connection_string
-PORT=3001
-
-Code
+   ```
+   MONGODB_URI=your_mongodb_connection_string
+   PORT=3001
+   ```
 4. Start the backend:
-npm start
-
-Code
+   ```
+   npm start
+   ```
 
 ---
 
@@ -85,7 +85,10 @@ Code
 ### Frontend (Render Static Site)
 - Build Command: `npm install && npm run build`
 - Publish Directory: `build`
-- Environment Variable: `REACT_APP_API_URL=https://your-backend-url.onrender.com`
+- Environment Variable:  
+  ```
+  REACT_APP_API_URL=https://your-backend-url.onrender.com
+  ```
 
 ---
 
@@ -101,4 +104,5 @@ Code
 ## 👩‍💻 Author
 
 **Preeti Sawant**  
-GitHub: https://github.com/preetisawant1911
+GitHub: [https://github.com/preetisawant1911](https://github.com/preetisawant1911)
+
